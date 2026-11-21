@@ -1,0 +1,3986 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.activelink
+{
+  color: #800080;
+}
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.heading1
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading2
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading3
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading4
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading5
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading6
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.link
+{
+  color: #0000FF;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.visitedlink
+{
+  color: #800080;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+</head>
+<body class="body">
+
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento CONTENTS</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Contents: Variables (Short)">
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" scope="col">Lista alfabética de variables para WORK.NETFLIX_POBLACION</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">cast country date_added description director duration duration_min duration_seasons listed_in num_generos rating rating_group release_decade release_year show_id title type</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX1"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 1: ANÁLISIS DE LA POBLACIÓN COMPLETA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Resumen General del Dataset (Población)</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure SQL: Query Results">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r b header" scope="col">Total_Registros</th>
+<th class="r b header" scope="col">Titulos_Unicos</th>
+<th class="r b header" scope="col">Tipos_Contenido</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">8803</td>
+<td class="r data">8803</td>
+<td class="r data">2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX2"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 1: ANÁLISIS DE LA POBLACIÓN COMPLETA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">1. Distribución de Tipo de Contenido</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento FREQ</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Freq: Frecuencias de un factor">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">type</th>
+<th class="r b header" scope="col">Frecuencia</th>
+<th class="r b header" scope="col"> Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Movie</th>
+<td class="r data">6129</td>
+<td class="r data">69.62</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">TV Show</th>
+<td class="r data">2674</td>
+<td class="r data">30.38</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX3"></a>
+<div>
+<div  class="c">
+<img alt="Gráfico de barras de porcentajes para type" src="/home/u64398734/FreqPlot.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX4"></a>
+<div>
+<div  class="c">
+<img alt="Procedimiento SGPlot" src="/home/u64398734/SGPlot.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX5"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 1: ANÁLISIS DE LA POBLACIÓN COMPLETA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">2. Análisis Temporal: Año de Lanzamiento</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento MEANS</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Means: Estadísticos de sumarización">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="12" scope="colgroup">Analysis Variable : release_year_clean </th>
+</tr>
+<tr>
+<th class="r b header" scope="col">N</th>
+<th class="r b header" scope="col">Media</th>
+<th class="r b header" scope="col">Mediana</th>
+<th class="r b header" scope="col">Moda</th>
+<th class="r b header" scope="col">Desv. est</th>
+<th class="r b header" scope="col">Mínimo</th>
+<th class="r b header" scope="col">Máximo</th>
+<th class="r b header" scope="col">Cuartil inferior</th>
+<th class="r b header" scope="col">Cuartil superior</th>
+<th class="r b header" scope="col">Rango</th>
+<th class="r b header" scope="col">Asimetría</th>
+<th class="r b header" scope="col">Curtosis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">8802</td>
+<td class="r data">2014.19</td>
+<td class="r data">2017.00</td>
+<td class="r data">2018.00</td>
+<td class="r data">8.7884388</td>
+<td class="r data">1925.00</td>
+<td class="r data">2021.00</td>
+<td class="r data">2013.00</td>
+<td class="r data">2019.00</td>
+<td class="r data">96.0000000</td>
+<td class="r data" nowrap>-3.4305003</td>
+<td class="r data">16.0694935</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX6"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 1: ANÁLISIS DE LA POBLACIÓN COMPLETA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">2. Análisis Temporal: Año de Lanzamiento</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.PARAMETROS_POBLACIONALES">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">_TYPE_</th>
+<th class="r header" scope="col">_FREQ_</th>
+<th class="r header" scope="col">n</th>
+<th class="r header" scope="col">Media</th>
+<th class="r header" scope="col">Mediana</th>
+<th class="r header" scope="col">Moda</th>
+<th class="r header" scope="col">Desviación Estándar</th>
+<th class="r header" scope="col">Mínimo</th>
+<th class="r header" scope="col">Máximo</th>
+<th class="r header" scope="col">Q1 (25%)</th>
+<th class="r header" scope="col">Q3 (75%)</th>
+<th class="r header" scope="col">Rango</th>
+<th class="r header" scope="col">Asimetría</th>
+<th class="r header" scope="col">Curtosis</th>
+<th class="l header" scope="col">tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">0</td>
+<td class="r data">8802</td>
+<td class="r data">8802</td>
+<td class="r data">2014.19</td>
+<td class="r data">2017.00</td>
+<td class="r data">2018.00</td>
+<td class="r data">8.79</td>
+<td class="r data">1925</td>
+<td class="r data">2021</td>
+<td class="r data">2013</td>
+<td class="r data">2019</td>
+<td class="r data">96</td>
+<td class="r data" nowrap>-3.4305</td>
+<td class="r data">16.0695</td>
+<td class="l data">POBLACION</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX7"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 1: ANÁLISIS DE LA POBLACIÓN COMPLETA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Distribución por Décadas</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento FREQ</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Freq: Frecuencias de un factor">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">release_decade</th>
+<th class="r b header" scope="col">Frecuencia</th>
+<th class="r b header" scope="col"> Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">2010s</th>
+<td class="r data">5926</td>
+<td class="r data">67.32</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2020s</th>
+<td class="r data">1545</td>
+<td class="r data">17.55</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">2000s</th>
+<td class="r data">807</td>
+<td class="r data">9.17</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1990s</th>
+<td class="r data">274</td>
+<td class="r data">3.11</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">1980s</th>
+<td class="r data">129</td>
+<td class="r data">1.47</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Antig</th>
+<td class="r data">121</td>
+<td class="r data">1.37</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Missi</th>
+<td class="r data">1</td>
+<td class="r data">0.01</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX8"></a>
+<div>
+<div  class="c">
+<img alt="Gráfico de barras de porcentajes para release_decade" src="/home/u64398734/FreqPlot1.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX9"></a>
+<div>
+<div  class="c">
+<img alt="Procedimiento SGPlot" src="/home/u64398734/SGPlot1.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX10"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 1: ANÁLISIS DE LA POBLACIÓN COMPLETA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">3. Análisis de Ratings (Población)</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento FREQ</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Freq: Frecuencias de un factor">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">rating</th>
+<th class="r b header" scope="col">Frecuencia</th>
+<th class="r b header" scope="col"> Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">TV-MA</th>
+<td class="r data">3204</td>
+<td class="r data">36.40</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">TV-14</th>
+<td class="r data">2160</td>
+<td class="r data">24.54</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">TV-PG</th>
+<td class="r data">862</td>
+<td class="r data">9.79</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">R</th>
+<td class="r data">799</td>
+<td class="r data">9.08</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">PG-13</th>
+<td class="r data">489</td>
+<td class="r data">5.55</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">TV-Y7</th>
+<td class="r data">334</td>
+<td class="r data">3.79</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">TV-Y</th>
+<td class="r data">307</td>
+<td class="r data">3.49</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">PG</th>
+<td class="r data">287</td>
+<td class="r data">3.26</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">TV-G</th>
+<td class="r data">220</td>
+<td class="r data">2.50</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">UNRATED</th>
+<td class="r data">89</td>
+<td class="r data">1.01</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">G</th>
+<td class="r data">41</td>
+<td class="r data">0.47</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">NOT RATED</th>
+<td class="r data">5</td>
+<td class="r data">0.06</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">NC-17</th>
+<td class="r data">3</td>
+<td class="r data">0.03</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">OTHER</th>
+<td class="r data">3</td>
+<td class="r data">0.03</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX11"></a>
+<div>
+<div  class="c">
+<img alt="Gráfico de barras de porcentajes para rating" src="/home/u64398734/FreqPlot2.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX12"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 1: ANÁLISIS DE LA POBLACIÓN COMPLETA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">3. Análisis de Ratings (Población)</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento FREQ</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Freq: Frecuencias de un factor">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">rating_group</th>
+<th class="r b header" scope="col">Frecuencia</th>
+<th class="r b header" scope="col"> Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Adultos</th>
+<td class="r data">4006</td>
+<td class="r data">45.51</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Adolescentes</th>
+<td class="r data">2649</td>
+<td class="r data">30.09</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">General con guía</th>
+<td class="r data">1149</td>
+<td class="r data">13.05</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Todo público</th>
+<td class="r data">682</td>
+<td class="r data">7.75</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">No clasificado</th>
+<td class="r data">317</td>
+<td class="r data">3.60</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX13"></a>
+<div>
+<div  class="c">
+<img alt="Gráfico de barras de frecuencias para rating_group" src="/home/u64398734/FreqPlot3.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX14"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 1: ANÁLISIS DE LA POBLACIÓN COMPLETA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">4. Análisis de Duración: Películas (Población)</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento MEANS</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Means: Estadísticos de sumarización">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="12" scope="colgroup">Analysis Variable : duration_min </th>
+</tr>
+<tr>
+<th class="r b header" scope="col">N</th>
+<th class="r b header" scope="col">Media</th>
+<th class="r b header" scope="col">Mediana</th>
+<th class="r b header" scope="col">Moda</th>
+<th class="r b header" scope="col">Desv. est</th>
+<th class="r b header" scope="col">Mínimo</th>
+<th class="r b header" scope="col">Máximo</th>
+<th class="r b header" scope="col">Cuartil inferior</th>
+<th class="r b header" scope="col">Cuartil superior</th>
+<th class="r b header" scope="col">Rango</th>
+<th class="r b header" scope="col">Asimetría</th>
+<th class="r b header" scope="col">Curtosis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">651</td>
+<td class="r data">97.2764977</td>
+<td class="r data">94.0000000</td>
+<td class="r data">90.0000000</td>
+<td class="r data">12.9683775</td>
+<td class="r data">67.0000000</td>
+<td class="r data">127.0000000</td>
+<td class="r data">90.0000000</td>
+<td class="r data">104.0000000</td>
+<td class="r data">60.0000000</td>
+<td class="r data">0.9743666</td>
+<td class="r data">1.2273538</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX15"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 1: ANÁLISIS DE LA POBLACIÓN COMPLETA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">4. Análisis de Duración: Películas (Población)</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.STATS_MOVIES_POB">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">_TYPE_</th>
+<th class="r header" scope="col">_FREQ_</th>
+<th class="r header" scope="col">n</th>
+<th class="r header" scope="col">media</th>
+<th class="r header" scope="col">mediana</th>
+<th class="r header" scope="col">desv_std</th>
+<th class="r header" scope="col">minimo</th>
+<th class="r header" scope="col">maximo</th>
+<th class="r header" scope="col">q1</th>
+<th class="r header" scope="col">q3</th>
+<th class="r header" scope="col">asimetria</th>
+<th class="r header" scope="col">curtosis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">0</td>
+<td class="r data">651</td>
+<td class="r data">651</td>
+<td class="r data">97.28</td>
+<td class="r data">94.00</td>
+<td class="r data">12.97</td>
+<td class="r data">67</td>
+<td class="r data">127</td>
+<td class="r data">90</td>
+<td class="r data">104</td>
+<td class="r data">0.9744</td>
+<td class="r data">1.2274</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX16"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 2: CÁLCULO DEL TAMAÑO DE MUESTRA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Parámetros de la Población para Cálculo de Muestra</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.INFO_POBLACION">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">N_poblacion</th>
+<th class="r header" scope="col">mu_year</th>
+<th class="r header" scope="col">sigma_year</th>
+<th class="r header" scope="col">p_movies</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">8802</td>
+<td class="r data">2014.19</td>
+<td class="r data">8.7884</td>
+<td class="r data">69.62%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX17"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 2: CÁLCULO DEL TAMAÑO DE MUESTRA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Cálculo de Tamaño de Muestra: Variable Dicotómica (Movies vs Series)</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.CALCULO_N_PROPORCION">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Valor Z (IC<br/>95%)</th>
+<th class="r header" scope="col">Error máximo<br/>permitido</th>
+<th class="r header" scope="col">Proporción estimada</th>
+<th class="r header" scope="col">Tamaño muestra<br/>(población infinita)</th>
+<th class="r header" scope="col">Tamaño muestra<br/>(población finita)</th>
+<th class="r header" scope="col">Tamaño de muestra<br/>FINAL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">1.96</td>
+<td class="r data">0.05</td>
+<td class="r data">69.62%</td>
+<td class="r data">325.00</td>
+<td class="r data">313.47</td>
+<td class="r data">314</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX18"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 2: CÁLCULO DEL TAMAÑO DE MUESTRA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Cálculo de Tamaño de Muestra: Variable Continua (Año de Lanzamiento)</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.CALCULO_N_MEDIA">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Valor Z (IC<br/>95%)</th>
+<th class="r header" scope="col">Error<br/>máximo<br/>permitido<br/>(años)</th>
+<th class="r header" scope="col">Desviación estándar</th>
+<th class="r header" scope="col">Tamaño muestra<br/>(población infinita)</th>
+<th class="r header" scope="col">Tamaño muestra<br/>(población finita)</th>
+<th class="r header" scope="col">Tamaño de muestra<br/>FINAL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">1.96</td>
+<td class="r data">2</td>
+<td class="r data">8.7884</td>
+<td class="r data">74.18</td>
+<td class="r data">73.57</td>
+<td class="r data">74</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX19"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 2: CÁLCULO DEL TAMAÑO DE MUESTRA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Comparación: Tamaño de Muestra según Nivel de Confianza y Error</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.TABLA_N_COMPARATIVA">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l header" scope="col">Confianza</th>
+<th class="r header" scope="col">Error_Max</th>
+<th class="r header" scope="col">Tamano_Muestra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">90%</td>
+<td class="r data">1</td>
+<td class="r data">205</td>
+</tr>
+<tr>
+<td class="l data">90%</td>
+<td class="r data">2</td>
+<td class="r data">52</td>
+</tr>
+<tr>
+<td class="l data">90%</td>
+<td class="r data">3</td>
+<td class="r data">24</td>
+</tr>
+<tr>
+<td class="l data">95%</td>
+<td class="r data">1</td>
+<td class="r data">288</td>
+</tr>
+<tr>
+<td class="l data">95%</td>
+<td class="r data">2</td>
+<td class="r data">74</td>
+</tr>
+<tr>
+<td class="l data">95%</td>
+<td class="r data">3</td>
+<td class="r data">33</td>
+</tr>
+<tr>
+<td class="l data">99%</td>
+<td class="r data">1</td>
+<td class="r data">485</td>
+</tr>
+<tr>
+<td class="l data">99%</td>
+<td class="r data">2</td>
+<td class="r data">127</td>
+</tr>
+<tr>
+<td class="l data">99%</td>
+<td class="r data">3</td>
+<td class="r data">57</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX20"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 3: MUESTREO ALEATORIO SIMPLE (MAS) ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Selección de Muestra Aleatoria Simple</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento SURVEYSELECT</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Surveyselect: Método de selección de la muestra">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Método de selección</th>
+<td class="r data">Muestreo aleatorio simple</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX21"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Surveyselect: Resumen de selección muestral">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Conjunto de datos de entrada</th>
+<td class="r data">NETFLIX_POBLACION</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Semilla de número aleatorio</th>
+<td class="r data">12345</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Tamaño muestral</th>
+<td class="r data">74</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Probabilidad de selección</th>
+<td class="r data">0.008406</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Peso muestral</th>
+<td class="r data">118.95946</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Conjunto de datos de salida</th>
+<td class="r data">MUESTRA_MAS</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX22"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 3: MUESTREO ALEATORIO SIMPLE (MAS) ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Estadísticas Descriptivas de la Muestra (MAS)</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento MEANS</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Means: Estadísticos de sumarización">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="12" scope="colgroup">Analysis Variable : release_year_clean </th>
+</tr>
+<tr>
+<th class="r b header" scope="col">N</th>
+<th class="r b header" scope="col">Media</th>
+<th class="r b header" scope="col">Mediana</th>
+<th class="r b header" scope="col">Moda</th>
+<th class="r b header" scope="col">Desv. est</th>
+<th class="r b header" scope="col">Mínimo</th>
+<th class="r b header" scope="col">Máximo</th>
+<th class="r b header" scope="col">Cuartil inferior</th>
+<th class="r b header" scope="col">Cuartil superior</th>
+<th class="r b header" scope="col">Rango</th>
+<th class="r b header" scope="col">Asimetría</th>
+<th class="r b header" scope="col">Curtosis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">74</td>
+<td class="r data">2014.46</td>
+<td class="r data">2017.00</td>
+<td class="r data">2017.00</td>
+<td class="r data">8.2945587</td>
+<td class="r data">1975.00</td>
+<td class="r data">2021.00</td>
+<td class="r data">2014.00</td>
+<td class="r data">2018.00</td>
+<td class="r data">46.0000000</td>
+<td class="r data" nowrap>-3.2922195</td>
+<td class="r data">11.9691627</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX23"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 3: MUESTREO ALEATORIO SIMPLE (MAS) ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Estadísticas Descriptivas de la Muestra (MAS)</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.STATS_MUESTRA_MAS">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">_TYPE_</th>
+<th class="r header" scope="col">_FREQ_</th>
+<th class="r header" scope="col">n</th>
+<th class="r header" scope="col">Media</th>
+<th class="r header" scope="col">Mediana</th>
+<th class="r header" scope="col">Moda</th>
+<th class="r header" scope="col">Desviación Estándar</th>
+<th class="r header" scope="col">Mínimo</th>
+<th class="r header" scope="col">Máximo</th>
+<th class="r header" scope="col">Q1 (25%)</th>
+<th class="r header" scope="col">Q3 (75%)</th>
+<th class="r header" scope="col">Rango</th>
+<th class="r header" scope="col">Asimetría</th>
+<th class="r header" scope="col">Curtosis</th>
+<th class="l header" scope="col">tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">0</td>
+<td class="r data">74</td>
+<td class="r data">74</td>
+<td class="r data">2014.46</td>
+<td class="r data">2017.00</td>
+<td class="r data">2017.00</td>
+<td class="r data">8.29</td>
+<td class="r data">1975</td>
+<td class="r data">2021</td>
+<td class="r data">2014</td>
+<td class="r data">2018</td>
+<td class="r data">46</td>
+<td class="r data" nowrap>-3.2922</td>
+<td class="r data">11.9692</td>
+<td class="l data">MUESTRA_MAS</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX24"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 3: MUESTREO ALEATORIO SIMPLE (MAS) ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">COMPARACIÓN: Población vs Muestra (MAS)</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.COMPARACION_POB_MUESTRA">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l header" scope="col">tipo</th>
+<th class="r header" scope="col">n</th>
+<th class="r header" scope="col">media</th>
+<th class="r header" scope="col">mediana</th>
+<th class="r header" scope="col">desv_std</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">POBLACION</td>
+<td class="r data">8802</td>
+<td class="r data">2014.19</td>
+<td class="r data">2017.00</td>
+<td class="r data">8.7884</td>
+</tr>
+<tr>
+<td class="l data">MUESTRA_M</td>
+<td class="r data">74</td>
+<td class="r data">2014.46</td>
+<td class="r data">2017.00</td>
+<td class="r data">8.2946</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX25"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 3: MUESTREO ALEATORIO SIMPLE (MAS) ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Error de Estimación: Muestra vs Población</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.ERROR_ESTIMACION">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l header" scope="col">tipo</th>
+<th class="r header" scope="col">n</th>
+<th class="r header" scope="col">Error_Media</th>
+<th class="r header" scope="col">Error_Relativo_Pct</th>
+<th class="r header" scope="col">Error_DesvStd</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">MUESTRA_M</td>
+<td class="r data">74</td>
+<td class="r data">0.2681</td>
+<td class="r data">0.01</td>
+<td class="r data">0.4939</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX26"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 4: MUESTREO ESTRATIFICADO ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Muestreo Estratificado por Tipo (Movie/TV Show)</td>
+</tr>
+<tr>
+<td class="c systemtitle4">Distribución de la Muestra por Estrato</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.ESTRATOS">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l header" scope="col">type</th>
+<th class="r header" scope="col">COUNT</th>
+<th class="r header" scope="col">PERCENT</th>
+<th class="r header" scope="col">n_estrato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">Movie</td>
+<td class="r data">6129</td>
+<td class="r data">69.6240</td>
+<td class="r data">52</td>
+</tr>
+<tr>
+<td class="l data">TV Show</td>
+<td class="r data">2674</td>
+<td class="r data">30.3760</td>
+<td class="r data">22</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX27"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 4: MUESTREO ESTRATIFICADO ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Muestreo Estratificado por Tipo (Movie/TV Show)</td>
+</tr>
+<tr>
+<td class="c systemtitle4">Distribución de la Muestra por Estrato</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento SURVEYSELECT</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Surveyselect: Método de selección de la muestra">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Método de selección</th>
+<td class="r data">Muestreo aleatorio simple</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX28"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Surveyselect: Resumen de selección muestral">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Conjunto de datos de entrada</th>
+<td class="r data">NETFLIX_POBLACION</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Semilla de número aleatorio</th>
+<td class="r data">54321</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Tamaño muestral</th>
+<td class="r data">49</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Probabilidad de selección</th>
+<td class="r data">0.007995</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Peso muestral</th>
+<td class="r data">125.08163</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Conjunto de datos de salida</th>
+<td class="r data">MUESTRA_MOVIES</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX29"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 4: MUESTREO ESTRATIFICADO ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Muestreo Estratificado por Tipo (Movie/TV Show)</td>
+</tr>
+<tr>
+<td class="c systemtitle4">Distribución de la Muestra por Estrato</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento SURVEYSELECT</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Surveyselect: Método de selección de la muestra">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Método de selección</th>
+<td class="r data">Muestreo aleatorio simple</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX30"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Surveyselect: Resumen de selección muestral">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Conjunto de datos de entrada</th>
+<td class="r data">NETFLIX_POBLACION</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Semilla de número aleatorio</th>
+<td class="r data">54322</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Tamaño muestral</th>
+<td class="r data">25</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Probabilidad de selección</th>
+<td class="r data">0.009349</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Peso muestral</th>
+<td class="r data">106.96</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Conjunto de datos de salida</th>
+<td class="r data">MUESTRA_TVSHOWS</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX31"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 4: MUESTREO ESTRATIFICADO ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Estadísticas Descriptivas de la Muestra Estratificada</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento MEANS</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Means: Estadísticos de sumarización">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Analysis Variable : release_year_clean </th>
+</tr>
+<tr>
+<th class="r b header" scope="col">N</th>
+<th class="r b header" scope="col">Media</th>
+<th class="r b header" scope="col">Mediana</th>
+<th class="r b header" scope="col">Desv. est</th>
+<th class="r b header" scope="col">Mínimo</th>
+<th class="r b header" scope="col">Máximo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">74</td>
+<td class="r data">2012.92</td>
+<td class="r data">2016.00</td>
+<td class="r data">10.1613783</td>
+<td class="r data">1973.00</td>
+<td class="r data">2021.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX32"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 4: MUESTREO ESTRATIFICADO ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Estadísticas Descriptivas de la Muestra Estratificada</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.STATS_MUESTRA_ESTRAT">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l header" scope="col">tipo</th>
+<th class="r header" scope="col">n</th>
+<th class="r header" scope="col">media</th>
+<th class="r header" scope="col">mediana</th>
+<th class="r header" scope="col">desv_std</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">MUESTRA_ESTRATIFICADA</td>
+<td class="r data">74</td>
+<td class="r data">2012.92</td>
+<td class="r data">2016.00</td>
+<td class="r data">10.1614</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX33"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 4: MUESTREO ESTRATIFICADO ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Estadísticas por Estrato</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento MEANS</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Means: Estadísticos de sumarización">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="5" scope="colgroup">Analysis Variable : release_year_clean </th>
+</tr>
+<tr>
+<th class="l b header" scope="col">type</th>
+<th class="r b header" scope="col">N Obs</th>
+<th class="r b header" scope="col">N</th>
+<th class="r b header" scope="col">Media</th>
+<th class="r b header" scope="col">Desv. est</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l t data">Movie</th>
+<th class="r t data">49</th>
+<td class="r data">49</td>
+<td class="r data">2011.06</td>
+<td class="r data">11.5711714</td>
+</tr>
+<tr>
+<th class="l t data">TV Show</th>
+<th class="r t data">25</th>
+<td class="r data">25</td>
+<td class="r data">2016.56</td>
+<td class="r data">5.0421556</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX34"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 5: MUESTREO SISTEMÁTICO ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Muestreo Sistemático (cada k-ésimo elemento)</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure SQL: Query Results">
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r b header" scope="col">Tam_Muestra_Sistematica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">75</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX35"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 5: MUESTREO SISTEMÁTICO ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Estadísticas Descriptivas de la Muestra Sistemática</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento MEANS</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Means: Estadísticos de sumarización">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Analysis Variable : release_year_clean </th>
+</tr>
+<tr>
+<th class="r b header" scope="col">N</th>
+<th class="r b header" scope="col">Media</th>
+<th class="r b header" scope="col">Mediana</th>
+<th class="r b header" scope="col">Desv. est</th>
+<th class="r b header" scope="col">Mínimo</th>
+<th class="r b header" scope="col">Máximo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">75</td>
+<td class="r data">2014.59</td>
+<td class="r data">2016.00</td>
+<td class="r data">6.3460848</td>
+<td class="r data">1986.00</td>
+<td class="r data">2021.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX36"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 5: MUESTREO SISTEMÁTICO ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Estadísticas Descriptivas de la Muestra Sistemática</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.STATS_MUESTRA_SIST">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l header" scope="col">tipo</th>
+<th class="r header" scope="col">n</th>
+<th class="r header" scope="col">media</th>
+<th class="r header" scope="col">mediana</th>
+<th class="r header" scope="col">desv_std</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">MUESTRA_SISTEMATICA</td>
+<td class="r data">75</td>
+<td class="r data">2014.59</td>
+<td class="r data">2016.00</td>
+<td class="r data">6.3461</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX37"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 6: COMPARACIÓN DE MÉTODOS DE MUESTREO ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Resumen Comparativo: Población vs Todos los Métodos de Muestreo</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.COMPARACION_TODOS">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l header" scope="col">tipo</th>
+<th class="r header" scope="col">n</th>
+<th class="r header" scope="col">media</th>
+<th class="r header" scope="col">mediana</th>
+<th class="r header" scope="col">desv_std</th>
+<th class="r header" scope="col">asimetria</th>
+<th class="r header" scope="col">curtosis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">POBLACION</td>
+<td class="r data">8802</td>
+<td class="r data">2014.19</td>
+<td class="r data">2017.00</td>
+<td class="r data">8.79</td>
+<td class="r data" nowrap>-3.4305</td>
+<td class="r data">16.0695</td>
+</tr>
+<tr>
+<td class="l data">MUESTRA_M</td>
+<td class="r data">74</td>
+<td class="r data">2014.46</td>
+<td class="r data">2017.00</td>
+<td class="r data">8.29</td>
+<td class="r data" nowrap>-3.2922</td>
+<td class="r data">11.9692</td>
+</tr>
+<tr>
+<td class="l data">MUESTRA_E</td>
+<td class="r data">74</td>
+<td class="r data">2012.92</td>
+<td class="r data">2016.00</td>
+<td class="r data">10.16</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="l data">MUESTRA_S</td>
+<td class="r data">75</td>
+<td class="r data">2014.59</td>
+<td class="r data">2016.00</td>
+<td class="r data">6.35</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX38"></a>
+<div>
+<div  class="c">
+<img alt="Procedimiento SGPlot" src="/home/u64398734/SGPlot2.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX39"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 6: COMPARACIÓN DE MÉTODOS DE MUESTREO ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Análisis de Errores de Estimación</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.ERRORES_TODOS">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l header" scope="col">tipo</th>
+<th class="r header" scope="col">n</th>
+<th class="r header" scope="col">media</th>
+<th class="r header" scope="col">Error_Absoluto</th>
+<th class="r header" scope="col">Error_Relativo_Pct</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">MUESTRA_E</td>
+<td class="r data">74</td>
+<td class="r data">2012.919</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="l data">MUESTRA_M</td>
+<td class="r data">74</td>
+<td class="r data">2014.459</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="l data">MUESTRA_S</td>
+<td class="r data">75</td>
+<td class="r data">2014.587</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="l data">POBLACION</td>
+<td class="r data">8802</td>
+<td class="r data">2014.191</td>
+<td class="r data">0.0000</td>
+<td class="r data">0.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX40"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 7: DISTRIBUCIÓN MUESTRAL DE LA MEDIA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Estadísticas de la Distribución Muestral (100 medias)</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento MEANS</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Means: Estadísticos de sumarización">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="5" scope="colgroup">Analysis Variable : media_muestral </th>
+</tr>
+<tr>
+<th class="r b header" scope="col">N</th>
+<th class="r b header" scope="col">Media</th>
+<th class="r b header" scope="col">Desv. est</th>
+<th class="r b header" scope="col">Mínimo</th>
+<th class="r b header" scope="col">Máximo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">100</td>
+<td class="r data">2014.16</td>
+<td class="r data">1.0165581</td>
+<td class="r data">2011.59</td>
+<td class="r data">2016.04</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX41"></a>
+<div>
+<div  class="c">
+<img alt="Procedimiento SGPlot" src="/home/u64398734/SGPlot3.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX42"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 8: INTERVALOS DE CONFIANZA ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Intervalo de Confianza al 95% - Muestra Aleatoria Simple</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.IC_MUESTRA">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">media</th>
+<th class="r header" scope="col">Error Estándar</th>
+<th class="r header" scope="col">Límite Inferior<br/>(95%)</th>
+<th class="r header" scope="col">Límite Superior<br/>(95%)</th>
+<th class="r header" scope="col">Amplitud del IC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">2014.459</td>
+<td class="r data">0.9642</td>
+<td class="r data">2012.570</td>
+<td class="r data">2016.349</td>
+<td class="r data">3.7798</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX43"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 9: DETECCIÓN DE SESGO ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Ejemplo de SESGO: Muestra solo de años &gt;= 2010</td>
+</tr>
+</table><br>
+<div class="c proctitle">Procedimiento MEANS</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Means: Estadísticos de sumarización">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Analysis Variable : release_year_clean </th>
+</tr>
+<tr>
+<th class="r b header" scope="col">N</th>
+<th class="r b header" scope="col">Media</th>
+<th class="r b header" scope="col">Desv. est</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">74</td>
+<td class="r data">2019.46</td>
+<td class="r data">2.9802509</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX44"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 9: DETECCIÓN DE SESGO ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">Comparación: Muestra Sesgada vs Población</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.COMP_SESGO">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l header" scope="col">tipo</th>
+<th class="r header" scope="col">n</th>
+<th class="r header" scope="col">media</th>
+<th class="r header" scope="col">desv_std</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">POBLACION</td>
+<td class="r data">8802</td>
+<td class="r data">2014.19</td>
+<td class="r data">8.79</td>
+</tr>
+<tr>
+<td class="l data">MUESTRA_S</td>
+<td class="r data">74</td>
+<td class="r data">2019.46</td>
+<td class="r data">2.98</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX45"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ANÁLISIS EXPLORATORIO COMPLETO: NETFLIX 2021</td>
+</tr>
+<tr>
+<td class="c systemtitle2">====== PARTE 10: RESUMEN EJECUTIVO ======</td>
+</tr>
+<tr>
+<td class="c systemtitle3">RESUMEN: Resultados del Análisis de Muestreo</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Conjunto de datos WORK.RESUMEN_FINAL">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l header" scope="col">Aspecto</th>
+<th class="l header" scope="col">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">Tamaño de la Población</td>
+<td class="l data">8,803</td>
+</tr>
+<tr>
+<td class="l data">Tamaño de Muestra Calculado (95% conf)</td>
+<td class="l data">74</td>
+</tr>
+<tr>
+<td class="l data">Media Poblacional (año)</td>
+<td class="l data">2014.19</td>
+</tr>
+<tr>
+<td class="l data">Desv. Std. Poblacional</td>
+<td class="l data">8.79</td>
+</tr>
+<tr>
+<td class="l data">Mejor Método de Muestreo</td>
+<td class="l data">Estratificado por tipo</td>
+</tr>
+<tr>
+<td class="l data">Error Máximo Permitido</td>
+<td class="l data">±2 años</td>
+</tr>
+<tr>
+<td class="l data">Nivel de Confianza</td>
+<td class="l data">95%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemfooter">Estadística I - FES Acatlán UNAM - Análisis Poblacional y Muestreo</td>
+</tr>
+</table><br>
+</div>
+</body>
+</html>
